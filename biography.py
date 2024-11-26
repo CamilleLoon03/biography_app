@@ -16,9 +16,15 @@ age = st.sidebar.number_input("Age", min_value=16, max_value=30, value=18)
 major = st.sidebar.text_input("Major", "Bachelor of Science in Computer Engineering")
 about_me = st.sidebar.text_area(
     "About Me",
-    "Hi! I'm Camille Loon, a regular teenager who loves to explore new things and enjoy life to the fullest. When I'm not busy with schoolwork, you’ll find me hanging out with friends, binge-watching my favorite series, or scrolling through social media to stay updated on trends."
-"I have a creative side—I enjoy painting and sketching whenever inspiration strikes. Music is a big part of my life, whether I’m singing my favorite songs or discovering new artists to add to my playlist. I’m also a foodie who loves trying out new snacks or making late-night instant ramen while watching YouTube."
-"In my free time, I enjoy playing with my pets, because they always know how to brighten up my day. On weekends, I might sleep in late, go for a casual walk, or spend hours gaming or reading webcomics. Life as a teenager is all about balance—studying, making memories, and figuring out who I want to be!",
+    "Hi! I'm Camille Loon, a regular teenager who loves to explore new things and enjoy life to the fullest. "
+    "When I'm not busy with schoolwork, you’ll find me hanging out with friends, binge-watching my favorite series, "
+    "or scrolling through social media to stay updated on trends. "
+    "I have a creative side—I enjoy painting and sketching whenever inspiration strikes. "
+    "Music is a big part of my life, whether I’m singing my favorite songs or discovering new artists to add to my playlist. "
+    "I’m also a foodie who loves trying out new snacks or making late-night instant ramen while watching YouTube. "
+    "In my free time, I enjoy playing with my pets, because they always know how to brighten up my day. "
+    "On weekends, I might sleep in late, go for a casual walk, or spend hours gaming or reading webcomics. "
+    "Life as a teenager is all about balance—studying, making memories, and figuring out who I want to be!"
 )
 
 st.sidebar.header("Upload Picture 🖼️")
